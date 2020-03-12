@@ -1,5 +1,6 @@
 #!/bin/bash
 REPOS=(mservicesample.Common mservicesample.ApiGateway mservicesample.Membership mservicesample.Search)
+cd ../..
 
 for REPO in ${REPOS[*]}
 do
